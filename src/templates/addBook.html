@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+</head>
+<body>
+    <h1>
+        <a href="/">Home</a>
+        <a href="/bookList">Book List</a>
+        
+        <a href="/userLogin">User Login</a> 
+        <a href="/userRegister">User Register</a>
+        <a href="/adminLogin">Admin Login</a>   
+    </h1>
+
+    <h2>Add Book</h2>
+
+    <form action="/bookAuth" method="POST">
+        <label for="bookname">Book Name:</label><br>
+        <input type="text" id="bookname" name="bookname"><br>
+        <label for="bookamount">Book Amount:</label><br>
+        <input type="number" id="bookamount" name="bookamount"><br>
+        <label for="bookauthor">Book Author:</label><br>
+        <input type="text" id="bookauthor" name="bookauthor"><br>
+        <label for="bookcategory">Book Category:</label><br>
+        <input type="text" id="bookcategory" name="bookcategory"><br>
+        <label for="bookpublisher">Book Publisher:</label><br>
+        <input type="text" id="bookpublisher" name="bookpublisher"><br>
+        <label for="tags">Tags:</label><br>
+        <input type="text" id="tags" name="tags"><br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

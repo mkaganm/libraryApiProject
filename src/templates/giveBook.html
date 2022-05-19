@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>give book</title>
+</head>
+<body>
+    <h1>
+        <a href="/">Home</a>
+        <a href="/bookList">Book List</a>
+        
+        <a href="/userLogin">User Login</a> 
+        <a href="/userRegister">User Register</a>
+        <a href="/adminLogin">Admin Login</a>   
+    </h1>
+
+    <h2>Give book to user</h2>
+
+    <form action="/giveBookToUser" method="POST">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="bookname">Book name:</label><br>
+        <input type="text" id="bookname" name="bookname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
