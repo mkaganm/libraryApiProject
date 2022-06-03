@@ -14,7 +14,6 @@ go get github.com/gorilla/mux
 go get github.com/lib/pq
 ```
 ---
-Thanks to Ali Erbey for his contributions.
 
 With my best regards
 
