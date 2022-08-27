@@ -35,8 +35,5 @@ func main() {
 
 	defer http.ListenAndServe(":8080", r)
 
-	db.GetBooks()
-	db.GetUser()
-	db.GetAdmin()
 
 }
