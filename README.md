@@ -1,9 +1,7 @@
-# LIBRARY PROJECT
-
-GO BOOTCAMP PROJECT
+# LIBRARY BACK-END PROJECT
 
 ---
-## PACKAGES 
+## PACKAGES  I USE
 
 ### GORILLA/MUX
 ``` cmd
@@ -14,7 +12,4 @@ go get github.com/gorilla/mux
 go get github.com/lib/pq
 ```
 ---
-
-With my best regards
-
-Mustafa Kağan Meriç
+[Main](https://github.com/mkaganm/libraryApiProject/blob/main/src/main.go) - main go file
